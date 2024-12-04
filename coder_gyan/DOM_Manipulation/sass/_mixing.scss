@@ -1,0 +1,10 @@
+@mixin commonColorCode($pair,$spair2) {
+    color: rgb(87, 34, 167);
+    font-size: 5rem +5rem;//operator
+    letter-spacing: $pair;
+    text-transform: $pair2;
+    &:hover{//fro access subchild
+      color: rgb(198, 195, 193);
+        }
+  }
+  

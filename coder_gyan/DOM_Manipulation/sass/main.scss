@@ -1,0 +1,37 @@
+@import 'mixing';
+@import 'var';
+//SASS: it is css preprocessor
+  //scss is the most matured, stable and powerful professional grade css extension language in the world.
+//SCSS: CSS3
+//SASS: CSS
+//scss operator
+//varible
+//nesting
+//mixing
+//includes
+//partial files
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main_header{
+width: 100vw;
+height: 100vh;
+display: flex;
+flex-direction: column;
+place-items: center;
+background: $bg-color;
+
+h1{
+  @include commonColorCode(0.5rem, uppercase);
+  
+}
+p{
+  @include commonColorCode(0.5rem, capitalize);
+  
+}
+}
+
+  

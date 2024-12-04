@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Delete element from Array</title>
+    <script>
+        function insertData(){
+            let arr=[10,20,30,40,50,60,70]
+    
+        let position= document.getElementById('position').value;
+        position= parseInt(position);
+        
+
+        for(let i=position; i<arr.length-1; i++){
+
+            arr[i]=arr[i+1]//it change element position to next position.
+        }
+        arr.length=arr.length-1
+        console.log(arr)
+        }
+    </script>
+</head>
+<body>
+    <input type="text" id="position" placeholder="Enter position"/>
+    <button onclick="insertData()">Delete Element</button>
+</body>
+</html>

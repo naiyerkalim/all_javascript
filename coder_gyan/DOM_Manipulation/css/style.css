@@ -1,0 +1,30 @@
+/* display: 1.block level: e.g: all semantic elements
+2.inline : link, span
+
+//display: The display property specifies the display behavior (the type of rendering box) of an element.
+//position: 
+transform
+translate
+transition: for getting effect like animation
+z-index: The z-index property specifies the stack order of an element.
+overflow: The CSS overflow property controls what happens to content that is too big to fit into an area.
+float: The CSS float property specifies how an element should float.*/
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-color: aquamarine;
+
+    text-align: center;
+    }
+h1{
+    color: white;
+    background-color: blue;
+    font-family: 'Montserrat', sans-serif;
+}

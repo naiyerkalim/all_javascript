@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+display: flex;
+align-items: stretch;
+}
+
+.container div{
+    background-color: rgb(211, 192, 220);
+    border: 1px solid black;
+    padding: 1rem;
+}
+
+@media (max-width: 640px){
+    .container{
+        flex-direction: column;
+    }
+}
